@@ -6,9 +6,9 @@
     "url": ""
   },
   "license": "MIT",
-  "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open"
   },
   "dependencies": {
     "history": "^4.10.1",
