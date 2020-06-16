@@ -1,5 +1,7 @@
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
+var port = process.env.PORT || 8080;
+
 module.exports = {
     mode: 'development',
     resolve: {
