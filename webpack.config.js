@@ -22,8 +22,8 @@ module.exports = {
     externals: {
         // global app config object
         config: JSON.stringify({
-            apiUrl: 'http://localhost:4000'
+            apiUrl: 'http://localhost:0000'
         })
     }
 }
-var port = process.env.PORT || 8080;
+
