@@ -9,7 +9,7 @@
   "main": "server.js",
   "scripts": {
     "test": "No test",
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "history": "^4.10.1",
