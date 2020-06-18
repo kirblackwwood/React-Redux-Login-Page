@@ -1,6 +1,5 @@
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
-const PORT = process.env.PORT || 3000;
 
 module.exports = {
     mode: 'development',
