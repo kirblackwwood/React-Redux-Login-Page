@@ -22,22 +22,7 @@ module.exports = {
     externals: {
         // global app config object
         config: JSON.stringify({
-            apiUrl: '0.0.0.0.'
+            apiUrl: 'localhost:4000'
         })
     }
 }
-
-
-var WebpackDevServer = require('webpack-dev-server')
-var config = require('./webpack/dev')
-
-new WebpackDevServer(webpack(config), {
-  publicPath: config.output.publicPath,
-  hot: true,
-  inline: false,
-  historyApiFallback: true,
-  quiet: true
-}).listen(8080, function (error, result) {
-  if (error) {
-    console.log(error)
-  }
